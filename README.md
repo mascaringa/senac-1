@@ -103,7 +103,9 @@ String nome, sobrenome, email, senha, cpf, data_nasc, endereco, sexo, celular, c
    print("          ############################");
 
 
-o IF serve para determinar se um bloco de instruções **deve** ou **não** ser execultado, pode-se dizer que senpre que for necessario **testar** algum valor usaremos o *if*
+o IF serve para determinar se um bloco de instruções **deve** ou **não**
+ ser execultado, pode-se dizer que senpre que for necessario 
+**testar** algum valor usaremos o *if*
 
 ###OPERADORES LOGICOS
 
