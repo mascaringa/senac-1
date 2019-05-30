@@ -133,12 +133,12 @@ else
 ```dart
 string curso = "progamador android";
 
-if(curso == "progamador android");
+if(curso == "progamador android")
 {
        print("parabens vc fes otima escolha");
 }
 else
 {
-      print("vacilão aposto que faz adm")
+      print("vacilão aposto que faz adm");
 }
 ```
