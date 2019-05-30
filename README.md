@@ -50,14 +50,48 @@ int idade;
 idade = 2019 - anonasc;
 print(idade) ;
 
-eai Nathan Bazon seu email é nanabazon@gmail.com
+eai erik seu email é urangutango666@gmail.com
 17
   
+############################
+
+String nome, sobrenome, email, senha, cpf, data_nasc, endereco, sexo, celular, curso;
  
+ int ano_nasc, idade, qtd_moradores;
   
-  }
+ double renda_familiar, renda_pessoa;
+  
+ nome = "Erik gabriel";
+ sobrenome = "zanetti";
+ email = "urangutango666@gmail.com";
+ senha = "ter************";
+ cpf = "42436-63536";
+ data_nasc = "01/02/2002" ;
+ endereco = "amelia lise";
+ sexo = "masculino"; 
+ celular = "567688.756768";
+ curso = "lixeiro";
 
-
+ idade = 17;
+ qtd_moradores=5;
+ renda_familiar = 2500;
+ renda_pessoa = renda_familiar / qtd_moradores;
+   
+   print("           ###########################");
+   print("           CONFIRMAÇÃO DE CADASTRO"); 
+   print("Nome: $nome $sobrenome");
+   print("E-MAIL: $email");
+   print("SENHA: $senha");
+   print("CPF: $cpf");
+   print("DATA_NASC: $data_nasc");
+   print("ENDERECO: $endereco");
+   print("SEXO: $sexo");
+   print("CELULAR: $celular");
+   print("CURSO: $curso");
+   print("RENDA: $renda_familiar");
+   print("IDADE: $idade");
+   print("RENDA_PESSOA: R\$ ${renda_pessoa.toStringAsFixed(3)}");
+   print("          ############################");
 
 
 
