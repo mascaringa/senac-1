@@ -142,3 +142,19 @@ else
       print("vacilão aposto que faz adm");
 }
 ```
+double  nota1, nota2, media;
+
+nota1 = 3;
+nota2 = 2;
+
+media = (nota1 + nota2) / 2;
+  
+   
+if(media >= 5)
+{  
+     print("PASSOU DE BIMESTRE BURRO FINALMENTE UM $media");
+}
+else
+{
+     print("REPITIU TROXA TOMA AI SEU $media");
+} 
