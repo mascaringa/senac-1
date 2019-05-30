@@ -103,5 +103,40 @@ String nome, sobrenome, email, senha, cpf, data_nasc, endereco, sexo, celular, c
    print("          ############################");
 
 
+o IF serve para determinar se um bloco de instruções **deve** ou **não** ser execultado, pode-se dizer que senpre que for necessario **testar** algum valor usaremos o *if*
 
+###OPERADORES LOGICOS
 
+== igual
+!= diferente
+>= maior ou igual
+<= menor ou igual
+> maior 
+< menor
+
+###SINTAXE
+
+```dart
+if(teste_logico)
+{
+     //faz isso se o teste for verdadeiro 
+}
+else
+{
+    //fas isso se o teste for falso
+}
+```
+### EXENPLO IF
+
+```dart
+string curso = "progamador android";
+
+if(curso == "progamador android");
+{
+       print("parabens vc fes otima escolha");
+}
+else
+{
+      print("vacilão aposto que faz adm")
+}
+```
