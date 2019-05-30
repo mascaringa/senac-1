@@ -52,8 +52,17 @@ print(idade) ;
 
 eai erik seu email é urangutango666@gmail.com
 17
-  
-############################
+```
+
+## aula 2 
+
+**${renda_pessoa.toStringAsFixed(3)}**
+
+
+
+```dart
+
+
 
 String nome, sobrenome, email, senha, cpf, data_nasc, endereco, sexo, celular, curso;
  
