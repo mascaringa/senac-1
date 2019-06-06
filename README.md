@@ -190,3 +190,13 @@ x1 = -b + raiz_q / (2 * a);
 x2 = -b - raiz_q / (2 * a);   
 print("x1 = $x1");
 print("x2 = $x2");
+
+
+
+
+
+### AULA 4 ###
+
+"SOMENTE SERA VERDADE SE TODA EXPRESSÕES FOREM VERDADE 
+OU (OR) ||
+SOMENTE SERA FALSO SE TODAS EXPRESSÕES FOREM FALSAS
