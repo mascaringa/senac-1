@@ -205,6 +205,7 @@ SOMENTE SERA FALSO SE TODAS EXPRESSÕES FOREM FALSAS
 
 
 ###OPERADOR LOGIVO###
+
 void main() {
  
  bool var_a, var_b; 
