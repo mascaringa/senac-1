@@ -228,7 +228,9 @@ void main() {
  
   ### função ###
  
- / TRABALHO COM FUNÇÃO 
+ ```dart
+ 
+ // TRABALHO COM FUNÇÃO 
 
 void main() {
  
@@ -289,3 +291,4 @@ print("o resultado e: $resposta");
 
 }
 
+```
