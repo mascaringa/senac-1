@@ -266,12 +266,6 @@ calcular(n1, n2, "*");
  *
  * IMPORTANTE: so criar a função não serve pra nada 
  * agente tem que chamar a função no main.
- *
- *
- *
- *
- *
- *
  */
 
 void calcular(double novoNumero1, double novoNumero2, String operacao){
