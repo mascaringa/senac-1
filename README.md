@@ -224,4 +224,74 @@ void main() {
  }
  print(numero);
  
+ ### aula 5 ###
  
+  ### função ###
+ 
+ / TRABALHO COM FUNÇÃO 
+
+void main() {
+ 
+print("minha calculadora =) \n-------------------");
+String operacao = "+";
+double n1, n2;
+
+n1 = 10;
+n2 = 5;
+
+// ESSA E CHAMDA DE FUNÇÃO
+
+calcular(n1, n2, "+");
+calcular(n1, n2, "-");
+calcular(n1, n2, "/");
+calcular(n1, n2, "*");
+
+
+
+
+}
+
+/*
+ * como cria uma função?
+ *
+ * primeiro, colocamos o retorno da função (tipo)
+ *
+ * depois, colocamos o NOME da função
+ *
+ * depois do NOME, colocamos os PARENTES. dentro do 
+ * parenteses, "podemos" colocar PARAMETRO. (pode ter ou não)
+ *
+ * Por ultimo, colocamos abertura e fechamento de CHAVES. Dentro das
+ * chaves, vai o codigo da função
+ *
+ * IMPORTANTE: so criar a função não serve pra nada 
+ * agente tem que chamar a função no main.
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+void calcular(double novoNumero1, double novoNumero2, String operacao){
+  
+print("\nQuando e $novoNumero1 $operacao $novoNumero2");
+double resposta;
+  
+if (operacao == "+") {
+resposta = novoNumero1 + novoNumero2;  
+} else if (operacao == "-"){
+resposta = novoNumero1 - novoNumero2; 
+}else if (operacao == "/"){
+resposta = novoNumero1 / novoNumero2;
+}else if (operacao =="*"){
+resposta = novoNumero1 * novoNumero2;  
+}else{
+resposta = 0;
+}
+print("o resultado e: $resposta");
+
+
+}
+
